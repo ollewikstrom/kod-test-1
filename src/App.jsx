@@ -33,6 +33,7 @@ function App() {
   };
 
   const handleTestClick = async () => {
+    // Example function from Azure Open AI integration
     const res = await fetch('http://localhost:3001/api/chat', {
       method: 'POST',
       headers: {

@@ -1,16 +1,33 @@
-# React + Vite
+# Sogeti Kodtest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Komma igång
 
-Currently, two official plugins are available:
+### Installation och konfiguration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Installera dependencies**
+```bash
+   npm install
+```
 
-## React Compiler
+2. **Konfigurera miljövariabler**
+   - Byt namn på `.env.example` till `.env`
+   - Klistra in `AZURE_OPENAI_API_KEY` som du har fått av oss
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. **Starta applikationen**
+```bash
+   npm run dev
+```
+   Detta startar både frontend och backend samtidigt.
 
-## Expanding the ESLint configuration
+## Projektstruktur
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projektet består av två huvuddelar:
+
+- **Backend** - `server.js` innehåller ett Express API
+- **Frontend** - `src/` innehåller en React-applikation
+
+Ta dig tid att utforska och bekanta dig med kodstrukturen innan intervjun börjar.
+
+## Under intervjun
+
+Du kommer att få en uppgift som innebär att lägga till ny funktionalitet i den befintliga applikationen. Lycka till! 🚀
